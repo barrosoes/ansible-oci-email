@@ -3,7 +3,7 @@
   hosts: localhost
   tasks:
   - sendgrid:
-    api_key: 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
+    api_key: SG...
     from_address: "barrosoti@gmail.com"
     to_addresses:
       - "barrosoes@gmail.com"

@@ -4,7 +4,7 @@
        host: "smtp.gmail.com"
        port: "587"
        username: "barrosoti@gmail.com"
-       password: "qfizbdlmznuqeoap"
+       password: "senha"
        to: "barrosoes@gmail.com"
        subject: "Usuario criado"  
        body: "Usuario: {{ item }}{{dominio}} senha é: {{ ansible_hostname}}"
