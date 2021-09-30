@@ -1,0 +1,14 @@
+---
+- name: Enviando e-mail com ansible
+  hosts: 127.0.0.1
+  tasks:
+   - name: Mail
+     mail:
+       host: "smtp.gmail.com"
+       port: "587"
+       username: "barrosoti@gmail.com"
+       password: "qfizbdlmznuqeoap"
+       to: "barrosoes@gmail.com"
+       subject: "Usuario criado"  
+       body: 'Usuario Criado {{ ansible_hostname }}'
+       secure: starttls

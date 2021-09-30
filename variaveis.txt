@@ -1,0 +1,4 @@
+export COMPUTE_COMPARTMENT_OCID=ocid1.compartment.oc1.
+export REDES_COMPARTMENT_OCID=ocid1.compartment.oc1.
+export DB_COMPARTMENT_OCID=ocid1.compartment.oc1.
+export PARENT_COMPARTMENT_OCID=ocid1.tenancy.oc1.
